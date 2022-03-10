@@ -1,0 +1,22 @@
+{
+    "name": "ilyahoilik/laravel-socialite-epic-games",
+    "description": "Epic Games OAuth2 Provider for Laravel Socialite",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ilya Hoilik",
+            "email": "ilya@hoilik.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "IlyaHoilik\\Socialite\\EpicGames\\": ""
+        }
+    }
+}
