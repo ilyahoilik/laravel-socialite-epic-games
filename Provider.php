@@ -16,7 +16,7 @@ class Provider extends AbstractProvider
      * {@inheritdoc}
      */
     protected $scopes = [
-        'basic_profile'
+        'basic_profile', 'presence', 'friends_list'
     ];
 
     /**
